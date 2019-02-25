@@ -18,18 +18,18 @@ function displayMenu(currentPage) {
         page5 = 'currentPage';
 
     document.getElementById("menu").innerHTML =
-        '<ul> <li><a id=' + page1 + ' href=" /index.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Home</a></li>' +
+        '<ul> <li><a id=' + page1 + ' href=" HCI-Multimedia-Assignment/index.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Home</a></li>' +
         '<li class="dropDown"><a id=' + page2 + ' href=" HCI-Multimedia-Assignment/SortingAlgorithms.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Sorting Algorithms</a>' +
         '<div class="dropContent">' +
-        '<a href=" /BubbleSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Bubble Sort</a>' +
-        '<a href=" /QuickSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Quick Sort</a>' +
-        '<a href=" /MergeSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Merge Sort</a>' +
-        '<a href=" /InsertionSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Insertion Sort</a>' +
+        '<a href=" HCI-Multimedia-Assignment/BubbleSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Bubble Sort</a>' +
+        '<a href=" HCI-Multimedia-Assignment/QuickSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Quick Sort</a>' +
+        '<a href=" HCI-Multimedia-Assignment/MergeSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Merge Sort</a>' +
+        '<a href=" HCI-Multimedia-Assignment/InsertionSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Insertion Sort</a>' +
         '</div>' +
         '</li>' +
-        '<li><a id=' + page3 + ' href=" /BigONotation.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Big O Notation</a></li> ' +
-        '<li><a id=' + page4 + ' href=" /Examples.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)"">Examples</a></li> ' +
-        '<li><a id=' + page5 + ' href=" /Contact.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Contact</a></li> </ul>'
+        '<li><a id=' + page3 + ' href=" HCI-Multimedia-Assignment/BigONotation.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Big O Notation</a></li> ' +
+        '<li><a id=' + page4 + ' href=" HCI-Multimedia-Assignment/Examples.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)"">Examples</a></li> ' +
+        '<li><a id=' + page5 + ' href=" HCI-Multimedia-Assignment/Contact.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Contact</a></li> </ul>'
 }
 
 
