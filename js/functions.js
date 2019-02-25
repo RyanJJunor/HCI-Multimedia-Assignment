@@ -18,8 +18,8 @@ function displayMenu(currentPage) {
         page5 = 'currentPage';
 
     document.getElementById("menu").innerHTML =
-        '<ul> <li><a id=' + page1 + ' href="../html/index.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Home</a></li>' +
-        '<li class="dropDown"><a id=' + page2 + ' href="../html/SortingAlgorithms.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Sorting Algorithms</a>' +
+        '<ul> <li><a id=' + page1 + ' href=" HCI-Multimedia-Assignment/index.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Home</a></li>' +
+        '<li class="dropDown"><a id=' + page2 + ' href=" HCI-Multimedia-Assignment/SortingAlgorithms.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Sorting Algorithms</a>' +
         '<div class="dropContent">' +
         '<a href=" HCI-Multimedia-Assignment/BubbleSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Bubble Sort</a>' +
         '<a href=" HCI-Multimedia-Assignment/QuickSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Quick Sort</a>' +
