@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Bubble Sort</title>
+    <script src="js/functions.js"></script>
+</head>
+<body>
+
+<div id="page">
+    <div id="heading">
+        <h1>Bubble Sort</h1>
+    </div>
+
+    <div id="menu">
+
+        <script>displayMenu("sorting");</script>
+
+    </div>
+
+    <div id="content">
+        <h2>What is a Bubble Sort?</h2>
+        <p>
+            Bubble sort which gets it's name from the way elements 'bubble' up to their position is one of the first
+            sorting algorithms that a lot of people learn, this is due to it's simple implementation. However, it is
+            very rarely the best sort for the job. For each pass the bubble sort iterates through each element in the
+            collection, swapping adjacent elements if they are out of order. The bubble sort can be improved by making
+            it not check the already sorted elements (The length of the collection - the number of passes done), also
+            by making it that if a pass completes without any swaps taking place then the sort ends as the elements
+            must be sorted.
+            <br>
+            Bubble sort has a big O complexity of O(n<sup>2</sup>)
+        </p>
+
+        <table>
+            <tr>
+            <th><b>Pros:</b></th>
+            <th><b>Cons:</b></th>
+            </tr>
+            <tr>
+                <td>
+                <ul>
+                    <li>Simple to implement</li>
+                    <li>Performs well if the data set is nearly sorted</li>
+                </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Inefficient</li>
+                    </ul>
+                </td>
+            </tr>
+
+        </table>
+
+        <div class="infoBox">
+            <div class="leftBox">
+                <h2 align="center">Code Snippet</h2>
+                <p>
+                    <img src="../media/BubbleSortSnippet.PNG" alt="Java code for bubble sort">
+                </p>
+            </div>
+
+            <div class="rightBox">
+                <h2 align="center">Animation</h2>
+                <img src="../media/Bubble%20Sort.gif" alt="Animation for bubble sort">
+                <p>Animation taken from: <a href="https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html">
+                    https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

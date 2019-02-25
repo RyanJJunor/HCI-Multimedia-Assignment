@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Big O Notation</title>
+    <script src="js/functions.js"></script>
+</head>
+<body>
+
+<div id="page">
+    <div id="heading">
+        <h1>Big O Notation</h1>
+    </div>
+
+    <div id="menu">
+
+        <script>displayMenu("bigo");</script>
+
+    </div>
+
+    <div id="content">
+        <h2>What is Big O notation?</h2>
+        <p>
+            Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. Big O
+            specifically describes the worst-case scenario, and can be used to describe the execution time required or
+            the space used (e.g. in memory or on disk) by an algorithm.
+        </p>
+        <p>
+            Information on this page is from: <a href="https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/">
+            https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/</a>
+        </p>
+        <p>
+            Pictures on this page are from: <a href="http://cooervo.github.io/Algorithms-DataStructures-BigONotation/big
+            -O-notation.html">http://cooervo.github.io/Algorithms-DataStructures-BigONotation/big-O-notation.html</a>
+        </p>
+        <div class="infoBox">
+            <div class="leftBox">
+                <h2>O(1)</h2>
+                O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size
+                of the input data set.
+            </div>
+            <div class="rightBox">
+                <img src="../media/constant.svg">
+            </div>
+        </div>
+
+        <div class="infoBox">
+            <div class="leftBox">
+                <h2>O(N)</h2>
+                O(N) describes an algorithm whose performance will grow linearly and in direct proportion to the size of
+                the input data set. The example below also demonstrates how Big O favours the worst-case performance
+                scenario; a matching string could be found during any iteration of the for loop and the function would
+                return early, but Big O notation will always assume the upper limit where the algorithm will perform the
+                maximum number of iterations.
+            </div>
+            <div class="rightBox">
+                <img src="../media/linear.svg">
+            </div>
+        </div>
+
+        <div class="infoBox">
+            <div class="leftBox">
+                <h2>O(N<sup>2</sup>)</h2>
+                Not Implemented
+            </div>
+            <div class="rightBox">
+                Not Implemented
+            </div>
+        </div>
+
+        <div class="infoBox">
+            <div class="leftBox">
+                <h2>O(2<sup>N</sup>)</h2>
+                Not Implemented
+            </div>
+            <div class="rightBox">
+                Not Implemented
+            </div>
+        </div>
+
+        <div id="video">
+
+            <h2>Still having trouble?<br>Check out this video which gives an introduction to Big O Notation in 5
+                minutes.</h2>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/__vX2sjlpXU" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+
+    L l i I
+
+</div>
+</body>
+</html>
