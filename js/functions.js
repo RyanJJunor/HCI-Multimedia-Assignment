@@ -21,14 +21,14 @@ function displayMenu(currentPage) {
         '<ul> <li><a id=' + page1 + ' href="../html/index.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Home</a></li>' +
         '<li class="dropDown"><a id=' + page2 + ' href="../html/SortingAlgorithms.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Sorting Algorithms</a>' +
         '<div class="dropContent">' +
-        '<a href="../html/BubbleSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Bubble Sort</a>' +
-        '<a href="../html/QuickSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Quick Sort</a>' +
-        '<a href="../html/MergeSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Merge Sort</a>' +
-        '<a href="../html/InsertionSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Insertion Sort</a>' +
+        '<a href=" HCI-Multimedia-Assignment/BubbleSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Bubble Sort</a>' +
+        '<a href=" HCI-Multimedia-Assignment/QuickSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Quick Sort</a>' +
+        '<a href=" HCI-Multimedia-Assignment/MergeSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Merge Sort</a>' +
+        '<a href=" HCI-Multimedia-Assignment/InsertionSort.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Insertion Sort</a>' +
         '</div>' +
         '</li>' +
-        '<li><a id=' + page3 + ' href="../html/BigONotation.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Big O Notation</a></li> ' +
-        '<li><a id=' + page4 + ' href="../html/Examples.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)"">Examples</a></li> ' +
+        '<li><a id=' + page3 + ' href=" HCI-Multimedia-Assignment/BigONotation.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Big O Notation</a></li> ' +
+        '<li><a id=' + page4 + ' href=" HCI-Multimedia-Assignment/Examples.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)"">Examples</a></li> ' +
         '<li><a id=' + page5 + ' href=" HCI-Multimedia-Assignment/Contact.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Contact</a></li> </ul>'
 }
 
