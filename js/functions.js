@@ -29,7 +29,7 @@ function displayMenu(currentPage) {
         '</li>' +
         '<li><a id=' + page3 + ' href=" HCI-Multimedia-Assignment/BigONotation.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Big O Notation</a></li> ' +
         '<li><a id=' + page4 + ' href=" HCI-Multimedia-Assignment/Examples.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)"">Examples</a></li> ' +
-        '<li><a id=' + page5 + ' href=" HCI-Multimedia-Assignment/Contact.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Contact</a></li> </ul>'
+        '<li><a id=' + page5 + ' href=" Contact.html" onmousemove="menuHover(this, event)" onmouseleave="menuLeave(this)">Contact</a></li> </ul>'
 }
 
 
